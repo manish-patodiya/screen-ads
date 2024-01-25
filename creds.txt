@@ -1,0 +1,16 @@
+Admin URL
+http://localhost/saas-digital/admin/auth/login
+
+SuperAdmin
+username: root
+password: 12345
+
+Admin
+username: admin
+password: 12345
+
+
+User URL
+https://sschost.com/IDMS/user/auth/login
+--we can make users from admin
+

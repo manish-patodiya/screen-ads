@@ -1,0 +1,10 @@
+ALTER TABLE `departments` CHANGE `is_active` `is_active` TINYINT(2) NOT NULL DEFAULT '1';
+ALTER TABLE `media` CHANGE `is_active` `is_active` TINYINT(2) NOT NULL DEFAULT '1';
+ALTER TABLE `media_group_master` CHANGE `is_active` `is_active` TINYINT(2) NOT NULL DEFAULT '1';
+ALTER TABLE `flashcontent` CHANGE `is_active` `is_active` TINYINT(2) NOT NULL DEFAULT '1';
+ALTER TABLE `doctors` CHANGE `status` `status` TINYINT(2) NOT NULL DEFAULT '1';
+ALTER TABLE `users` CHANGE `is_active` `is_active` TINYINT(2) NOT NULL DEFAULT '1';
+ALTER TABLE `support_tickets` CHANGE `is_active` `is_active` TINYINT(2) NOT NULL DEFAULT '1';
+ALTER TABLE `companies` CHANGE `is_active` `is_active` TINYINT(2) NOT NULL DEFAULT '1';
+
+ALTER TABLE `users` ADD `flag` INT(2) NOT NULL DEFAULT '0' AFTER `last_ip`;
